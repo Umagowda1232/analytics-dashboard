@@ -16,6 +16,25 @@ body {
     padding-block: 0.5rem;
 }
 
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-weight: 300;
+    font-size: 0.9rem;
+  }
+  
+  table td {
+    padding-block: 0.5rem;
+  }
+  
+  table tr:nth-child(odd) {
+    background-color: rgb(228, 228, 228);
+  }
+  
+  table tr:nth-child(even) {
+    background-color: rgb(255, 255, 255);
+  }
+
 .backdrop {
     background-color: rgb(141, 141, 141, 0.6);
     position: fixed;
@@ -301,6 +320,35 @@ body {
   .bar75 {
     width: 75%;
     background-color: red;
+  }
+
+
+  /* ?Countries section */
+  .countries-section {
+    padding: 1rem;
+  }
+  
+  .countries-data tr {
+    border: 1px solid rgb(195, 195, 194);
+  }
+  
+  .countries-data td:nth-child(1) {
+    padding-left: 2rem;
+  }
+  
+  .general-section__button {
+    padding: 0.3rem 0.6rem;
+    border: none;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    font-weight: 300;
+    background-color: rgb(73, 73, 73);
+    color: white;
+  }
+  
+  .general-section__button:hover {
+    background-color: rgb(189, 189, 189);
+    color: black;
   }
   
 
