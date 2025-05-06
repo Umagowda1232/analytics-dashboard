@@ -1,4 +1,4 @@
-const toggleButton = document.querySelector('.menu-btn');
+const toggleButton = document.querySelector('.toggle-handler');
 const backDrop = document.querySelector('.backdrop');
 const mainNav = document.querySelector('.side-bar');
 
