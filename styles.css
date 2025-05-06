@@ -195,3 +195,84 @@ body {
     font-size: 1.3rem;
     font-weight: 300;
 }
+
+
+/* Regions and Feeds */
+
+.region-feed-section {
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+}
+
+.region-image {
+    width: 100%;
+}
+
+.feeds-table td{
+    padding-inline: 1rem 0.7rem;
+}
+
+.feeds-table .bi {
+    font-size: 1rem;
+}
+
+.feeds-table .blue {
+    color: rgb(33, 150, 243);
+}
+
+.feeds-table .red {
+    color: rgb(244, 67, 54);
+}
+
+.feeds-table .yellow {
+    color: rgb(210, 190, 14);
+}
+
+.feeds-table .green {
+    color: rgb(3, 152, 3);
+}
+
+
+
+
+/* Responsive design for tab devices */
+
+@media (min-width:38rem) {
+.mydashboard-items {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.mydashboard-item {
+    width: calc(25% - 0.5rem);
+}
+
+.region-feed-section {
+    flex-direction: row;
+}
+
+.regions {
+    width: 60%;
+}
+
+.feeds {
+    width: 100%;
+    margin-left: 0.5rem;
+}
+
+}
+
+
+/* Responsive design for desktop  */
+
+@media (min-width:62rem) {
+    .side-bar {
+        display: block;
+    }
+
+    .menu-bar {
+        visibility: hidden;
+    }
+}
+
