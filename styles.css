@@ -11,12 +11,12 @@ body {
    background-color: white;
 }
 
-.heading {
+  .heading {
     font-weight: 300;
     padding-block: 0.5rem;
-}
+  }
 
-table {
+  table {
     width: 100%;
     border-collapse: collapse;
     font-weight: 300;
@@ -49,7 +49,7 @@ table {
   
 
 /* ? Header ? */
-.header {
+ header {
     width: 100%;
     height: 7vh;
     background-color: black;
@@ -295,13 +295,13 @@ table {
   .general-stat__bar-outer {
     height: 1.5rem;
     background-color: rgb(214, 214, 214);
-    border-radius: 20px;
+    /* border-radius: 20px; */
   }
   
   .general-stat__bar-inner {
     height: 100%;
     text-align: center;
-    border-radius: 20px;
+    /* border-radius: 20px; */
     color: white;
     display: grid;
     place-items: center;
@@ -350,10 +350,96 @@ table {
     background-color: rgb(189, 189, 189);
     color: black;
   }
+
+  /* Recent Users Section */
+  .recent-users-section {
+    max-width: 1300px;
+    margin: 30px auto;
+    background: white;
+    padding: 15px;
+    /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); */
+    
+    font-family: Arial, sans-serif;
+  }
+  
+  .heading {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .user-list {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.9);
+    background: white;
+    border-radius: 4px;
+    overflow: hidden;
+    border-color: black;
+  }
+  
+  .user-item {
+    display: flex;
+    align-items: center;
+    padding: 12px 16px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .user-item:last-child {
+    border-bottom: none;
+  }
+  
+  .user-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 12px;
+  }
+  
+  .user-name {
+    font-size: 18px;
+    font-weight: 500;
+  }
   
 
-
-
+  /* ?comments section */
+  .comments-section {
+    padding: 1rem;
+  }
+  
+  .comments {
+    display: grid;
+  }
+  
+  .commentor-image {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .commentor-image img {
+    width: 6rem;
+    height: 6rem;
+  }
+  
+  .commentor-comment {
+    padding-inline: 1rem;
+  }
+  
+  .user-name {
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding-block: 1rem;
+  }
+  
+  .date-time-of-comment {
+    font-weight: 300;
+    font-size: 0.8rem;
+  }
+  
+  .user-comment {
+    font-weight: 300;
+    padding: 0 0 1.5rem 1rem;
+  }
+  
 
 /* Responsive design for tab devices */
 
