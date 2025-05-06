@@ -439,6 +439,63 @@ body {
     font-weight: 300;
     padding: 0 0 1.5rem 1rem;
   }
+
+  /* Info Section */
+  .info-section {
+    display: flex;
+    justify-content: space-around;
+    background-color: #5a5a5a;
+    padding: 30px 0 30px 0;
+    color: white;
+    /* left: 0; */
+    font-family: Arial, sans-serif;
+  }
+  
+  .info-column {
+    flex: 1;
+    max-width: 250px;
+    margin: 0 15px;
+  }
+  
+  .info-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    position: relative;
+    padding-bottom: 8px;
+  }
+  
+  .info-title::after {
+    content: "";
+    display: block;
+    height: 4px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .info-title.green::after {
+    background-color: #4caf50;
+  }
+  
+  .info-title.red::after {
+    background-color: #f44336;
+  }
+  
+  .info-title.orange::after {
+    background-color: #ffa500;
+  }
+  
+  .info-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .info-list li {
+    margin: 8px 0;
+  }
+  
   
 
 /* Responsive design for tab devices */
