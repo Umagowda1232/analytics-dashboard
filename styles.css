@@ -407,8 +407,15 @@ body {
   .comments {
     display: grid;
   }
+
+  .comments-container {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+  }
   
   .commentor-image {
+    display: flex;
     width: 6rem;
     height: 6rem;
     border-radius: 50%;
@@ -494,6 +501,23 @@ body {
   
   .info-list li {
     margin: 8px 0;
+  }
+  
+  /* Footer Section */
+  .site-footer {
+    background-color: #f1f1f1;
+    padding: 30px 20px;
+    font-family: Arial, sans-serif;
+    color: #000;
+  }
+  
+  .site-footer a {
+    color: #000;
+    text-decoration: underline;
+  }
+  
+  .site-footer a:hover {
+    color: #007BFF; /* Optional hover effect */
   }
   
   
